@@ -10,6 +10,9 @@
 		DE327707255D8B2300448DE1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE327706255D8B2300448DE1 /* AppDelegate.swift */; };
 		DE327709255D8B2600448DE1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE327708255D8B2600448DE1 /* Assets.xcassets */; };
 		DE32770C255D8B2600448DE1 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE32770A255D8B2600448DE1 /* MainMenu.xib */; };
+		DE327717255D8BD400448DE1 /* Topic.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE327716255D8BD400448DE1 /* Topic.swift */; };
+		DE32771B255D8DAA00448DE1 /* MainWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE327719255D8DAA00448DE1 /* MainWindowController.swift */; };
+		DE32771C255D8DAA00448DE1 /* MainWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE32771A255D8DAA00448DE1 /* MainWindowController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +22,9 @@
 		DE32770B255D8B2600448DE1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		DE32770D255D8B2600448DE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DE32770E255D8B2600448DE1 /* TableFieldWrap.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TableFieldWrap.entitlements; sourceTree = "<group>"; };
+		DE327716255D8BD400448DE1 /* Topic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Topic.swift; sourceTree = "<group>"; };
+		DE327719255D8DAA00448DE1 /* MainWindowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainWindowController.swift; sourceTree = "<group>"; };
+		DE32771A255D8DAA00448DE1 /* MainWindowController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindowController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +62,9 @@
 				DE32770A255D8B2600448DE1 /* MainMenu.xib */,
 				DE32770D255D8B2600448DE1 /* Info.plist */,
 				DE32770E255D8B2600448DE1 /* TableFieldWrap.entitlements */,
+				DE327716255D8BD400448DE1 /* Topic.swift */,
+				DE327719255D8DAA00448DE1 /* MainWindowController.swift */,
+				DE32771A255D8DAA00448DE1 /* MainWindowController.xib */,
 			);
 			path = TableFieldWrap;
 			sourceTree = "<group>";
@@ -118,6 +127,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DE327709255D8B2600448DE1 /* Assets.xcassets in Resources */,
+				DE32771C255D8DAA00448DE1 /* MainWindowController.xib in Resources */,
 				DE32770C255D8B2600448DE1 /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -130,6 +140,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				DE327707255D8B2300448DE1 /* AppDelegate.swift in Sources */,
+				DE327717255D8BD400448DE1 /* Topic.swift in Sources */,
+				DE32771B255D8DAA00448DE1 /* MainWindowController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +287,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				PRODUCT_BUNDLE_IDENTIFIER = com.iliumsoft.TableFieldWrap;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -294,6 +307,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				PRODUCT_BUNDLE_IDENTIFIER = com.iliumsoft.TableFieldWrap;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
